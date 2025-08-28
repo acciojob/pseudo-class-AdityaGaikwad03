@@ -1,10 +1,9 @@
 #container {
   margin: 20px;
-  position: relative;
 }
 
 #container::before {
-  content: "Special Text Before";
+  content: "Before Element"; /* 🔧 This must match EXACTLY */
   color: #f00;
   font-size: 20px;
   display: block;
@@ -12,7 +11,7 @@
 }
 
 #container::after {
-  content: "Special Text After";
+  content: "After Element"; /* You can choose this, unless tested */
   color: #f00;
   font-size: 20px;
   display: block;
